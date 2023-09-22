@@ -3,14 +3,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 10px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Goblin One', cursive;
+  font-family: "Goblin One", cursive;
 }
 .card {
+  white-space: nowrap;
   width: 27vw;
   height: 65vh;
   display: flex;
@@ -25,13 +22,19 @@ body {
   border-radius: 10px;
   border-width: 8px;
 }
-.Bakugan{
-  font-size: 2.3rem;
+.Bakugan {
+  text-align: left;
+  font-size: 1.7rem;
   text-transform: uppercase;
 }
-.abilities{
+.abilities {
+  display: inline-block;
   font-size: 1.3rem;
 }
-.card-img{
-width: 55%;
+.evolution {
+  display: inline-block;
+  margin: 20px 0px;
+}
+.card-img {
+  width: 55%;
 }
