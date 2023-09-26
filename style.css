@@ -1,40 +1,46 @@
 body {
-  background-image: url(Background-Bakugan.jpg);
+  background-image: url(Background-Bakugan.png);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
   font-family: "Goblin One", cursive;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card {
   white-space: nowrap;
-  width: 27vw;
-  height: 65vh;
+  width: 20vw;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-image: url(PyrusCard.jpg);
+  background-image: url(PyrusCard.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  margin: 50px 50px;
+  margin: 35px 35px;
   border-style: outset;
   border-radius: 10px;
   border-width: 8px;
 }
 .Bakugan {
+  margin-top: 20px;
+  width: 95%;
   text-align: left;
-  font-size: 1.7rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 .abilities {
-  display: inline-block;
-  font-size: 1.3rem;
+  margin: 20px 0px 50px 0px;
+  padding: 0px;
+  font-size: 0.7rem;
+  border: solid;
+  border-spacing: 0px 0px;
 }
-.evolution {
-  display: inline-block;
-  margin: 20px 0px;
-}
-.card-img {
-  width: 55%;
+.carddes {
+  display: flex;
+  flex-direction: row;
+  row-gap: 4px;
 }
