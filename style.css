@@ -35,12 +35,7 @@ body {
 .abilities {
   margin: 20px 0px 50px 0px;
   padding: 0px;
-  font-size: 0.7rem;
+  font-size: .5rem;
   border: solid;
-  border-spacing: 0px 0px;
-}
-.carddes {
-  display: flex;
-  flex-direction: row;
-  row-gap: 4px;
+  background-color: rgba(150, 0, 0, .8);
 }
