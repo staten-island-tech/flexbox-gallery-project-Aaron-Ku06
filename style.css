@@ -23,6 +23,7 @@ body {
   border-style: outset;
   border-radius: 10px;
   border-width: 8px;
+  box-shadow: inset 0px 0px 0px 0px rgba(154, 13, 13, 0.8);
 }
 .Bakugan {
   margin-top: 20px;
@@ -36,6 +37,6 @@ body {
   padding: 0px;
   font-size: .6rem;
   border: solid;
- background-color: aliceblue;
+  background-color: aliceblue;
   text-align: center;
 }
