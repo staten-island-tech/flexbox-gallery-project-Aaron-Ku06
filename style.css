@@ -32,9 +32,10 @@ body {
   text-transform: uppercase;
 }
 .abilities {
-  margin: 20px 0px 50px 0px;
+  margin: 20px 0px 20px 0px;
   padding: 0px;
-  font-size: .5rem;
+  font-size: .6rem;
   border: solid;
-  background-color: rgba(150, 0, 0, .8);
+ background-color: aliceblue;
+  text-align: center;
 }
