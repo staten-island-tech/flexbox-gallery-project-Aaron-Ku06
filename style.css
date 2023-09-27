@@ -9,7 +9,6 @@ body {
   flex-wrap: wrap;
 }
 .card {
-  white-space: nowrap;
   width: 20vw;
   height: 60vh;
   display: flex;
