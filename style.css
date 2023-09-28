@@ -8,6 +8,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 1080px){
+  .container{
+    width: 40%;
+  }
+}
 .card {
   width: 20vw;
   height: 60vh;
@@ -24,6 +29,7 @@
   border-radius: 10px;
   border-width: 8px;
   box-shadow: inset 0px 10px 25px 5px rgba(206, 0, 0, 0.8);
+  transition: all 0.3s;
 }
 .Bakugan {
   margin-top: 20px;
@@ -39,4 +45,10 @@
   border: solid;
   background-color: aliceblue;
   text-align: center;
+}
+.card:hover{
+ transform: scale(1.05);
+}
+.container:hover .card:not(:hover){
+  transform: scale(.95);
 }
