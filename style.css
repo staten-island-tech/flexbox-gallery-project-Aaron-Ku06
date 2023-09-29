@@ -8,8 +8,8 @@
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 1080px){
-  .container{
+@media screen and (max-width: 1080px) {
+  .container {
     width: 40%;
   }
 }
@@ -46,23 +46,23 @@
   background-color: black;
   text-align: center;
 }
-.card:hover{
- transform: scale(1.05);
- outline: .5rem solid #b91f1f;
- color: white;
- cursor: pointer;
+.card:hover {
+  transform: scale(1.05);
+  outline: 0.5rem solid #b91f1f;
+  color: white;
+  cursor: pointer;
 }
-.container:hover .card:not(:hover){
-  transform: scale(.95);
+.container:hover .card:not(:hover) {
+  transform: scale(0.95);
 }
-.logo{
+.logo {
   animation: rotate 8s infinite linear;
 }
-@keyframes rotate{
-  from{
+@keyframes rotate {
+  from {
     transform: rotate(0deg);
   }
-  to{
+  to {
     transform: rotate(359deg);
   }
 }
