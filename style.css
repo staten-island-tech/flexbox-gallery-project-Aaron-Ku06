@@ -1,6 +1,7 @@
 .container {
   background-image: url(Background-Bakugan.png);
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -8,9 +9,14 @@
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 1080px) {
-  .container {
-    width: 40%;
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 600px){
+  .card {
+    width: 60%;
   }
 }
 .card {
